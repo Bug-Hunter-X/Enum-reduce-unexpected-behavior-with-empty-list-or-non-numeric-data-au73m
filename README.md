@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Elixir's `Enum.reduce` when handling empty lists or when the list contains non-numeric values. The bug is that `Enum.reduce` will not work as expected if the list is empty or contains non-numeric values.  The solution demonstrates how to correctly handle this using pattern matching and guards.
